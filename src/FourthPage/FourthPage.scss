@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px ;
+    .FourthPage{
+        width: 100%;
+        padding-top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 100px;
+        .fourpage-text{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 50%;
+            h1{
+                display: flex;
+                font-size: 40px;
+                font-weight: 600;
+                align-items: center;
+                
+                h2{
+                    margin-left: 20px;
+                    font-size: 38px;
+                    font-weight: 600;
+                    color: #FF7A50;
+                }
+            }
+            p{
+                width: 50%;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 29px;
+                margin-top: 25px;
+            }
+            .btn-home{
+                display: flex;
+                gap: 30px;
+                align-items: center;
+                margin-top: 50px;
+                .button1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 33%;
+                    background: #000;
+                    gap: 30px;
+                    height: 80px;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    color: #fff;
+                    &:active{
+                        transform: translateY(3px);
+                    }
+                    #p{
+                    font-size: 1.2rem;
+                    margin-left: 20px;
+                    margin-top: -0px;
+                    }
+                    img{
+                        width: 15%;
+                        margin-top: 5px;
+                        margin-left: 20px;
+                    }
+                }               
+            }
+        }
+        .fourpage-icon{
+            width: 40%;
+            margin-left: -200px;
+            padding-top: 10px;
+        }
+    }
+}   

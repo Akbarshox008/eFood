@@ -1,0 +1,117 @@
+@import url(./Navbar/Navbar.css);
+@import url(./FirstPage/FirstPage.css);
+@import url(./SecondPage/SecondPage.css);
+@import url(./SliderPage/Slider.css);
+@import url(./ThirdPage/ThirdPage.css);
+@import url(./FourthPage/FourthPage.css);
+@import url(./HomeFooter/HomeFooter.css);
+@import url(./Contact/Contact.css);
+@import url(./Service/Services.css);
+@import url(./TopCities/TopCities.css);
+@import url(./Korzinka/Korzinka.css);
+@import url(./Shopping/Shopping.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1410px;
+}
+html {
+    font-size: 82.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: .9rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ed6104;
+}
+@media(max-width:1300px) {
+    .container{
+        max-width: 1200px;
+        .thirdpage-text{
+            p{
+                width: 70% !important;
+            }
+        }
+       .FourthPage{
+        justify-content: space-around !important;
+       }
+       .secondpage-icon{
+        .icon-item{
+            img{
+                width: 320px !important;
+                
+            }
+            #img4{
+                width: 290px !important;
+            }
+        }
+        .hover{
+            padding: 108px 50px 98px 68px !important;
+            top: 8.6% !important;
+        }
+       }
+       .fourpage-icon{
+        img{
+            width: 570px;
+        }
+       }
+       .footer2{
+           margin-left: 200px !important;
+           width: 80% !important;
+           &:last-child{
+               margin-left: 70px !important;
+               margin-top: 40px;
+            }
+        }
+        .footer1{
+            margin-left: 50px !important;
+            margin-bottom: 20px;
+            .location{
+                margin: 15px 0px;
+            }
+        }
+        .part-home{
+            margin-bottom: 200px;
+            .part1{
+                img{
+                    width: 100%;
+                }
+            }
+            .part2{
+                h1{
+                    font-size: 35px;
+                    font-weight: 600;
+                    margin-bottom: -10px !important;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-top: 11px !important;
+                }
+            }
+        }
+        .items-home{
+            padding: 50px 20px !important;
+            height: max-content  !important;
+            border-radius: 10px;
+        }
+    }
+    .hr{
+        width: 360% !important;
+    }
+} 

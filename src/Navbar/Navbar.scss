@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    max-width: 1410px;
+    margin: auto;
+    #nav-forma {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px ;
+        margin-left: 40px  ;
+        display: none;
+        #inp {
+            width: 75%;
+            padding: 7px 15px;
+            border-radius: 3px;
+            font-size: 16px;
+            font-weight: 500;
+            &:placeholder-shown {
+                font-size: 17px;
+                font-weight: 600;
+            }
+        }
+
+        button {
+            width: 10%;
+            padding: 8px 30px;
+            color: #fff;
+            border: none;
+            background: #ff2f00;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-left: 10px  ;
+
+
+        }
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+    
+        .logo {
+            cursor: pointer;
+            &:active {
+                transform: translateY(3px);
+                transition: .3s;
+            }
+        }    
+        .list {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+            justify-content: center;
+    
+            a {
+                text-decoration: none;
+                color: #ff481e;
+                font-size: 18px;
+                font-weight: 600;
+                transition: 1s ease;
+    
+                &:hover {
+                    color: rgb(38, 0, 255);
+                }
+    
+                &:active {
+                    transform: translateY(3px);
+                    transition: .1s;
+                }
+            }
+        }
+        .icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            padding: 0px 50px 0px 0px;
+    
+            img {
+                cursor: pointer;
+                &:active {
+                    transform: translateY(3px);
+                }
+            }
+    
+            button {
+                padding: 12px 40px;
+                border: none;
+                background: #ff2f00;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 600;
+                border-radius: 10px;
+                cursor: pointer;
+    
+                &:hover {
+                    color: rgb(0, 51, 255);
+                    background: red;
+                    transition: 1.4s;
+                }
+    
+                &:active {
+                    transform: translateY(5px);
+                }
+            }
+        }
+    }
+    
+}  
+@media(max-width:1300px) {
+    .Container{
+        width: 1210px !important;
+    }
+    #nav-forma{
+        button{
+            width: max-content !important;            
+        }
+    }
+} 

@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  height: -moz-max-content;
+  height: max-content;
+  margin: auto;
+  padding: 0;
+}
+.container .footer-home {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max-content, 350px));
+  margin-bottom: 30px;
+}
+.container .footer1 {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .footer1 #img {
+  cursor: pointer;
+}
+.container .footer1 #img:active {
+  transform: translateY(3px);
+}
+.container .footer1 .location {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  width: 20%;
+}
+.container .footer1 .location:active {
+  transform: translateY(3px);
+}
+.container .footer1 .connect {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  width: 70%;
+}
+.container .footer1 .connect:active {
+  transform: translateY(3px);
+}
+.container .footer1 .icons {
+  display: flex;
+  gap: 30px;
+}
+.container .footer1 .icons .icons-img {
+  padding: 10px;
+  box-shadow: 0px 1px 20px rgba(0, 0, 51, 0.1333333333);
+  cursor: pointer;
+  border-radius: 50px;
+  transform: scale(0.84);
+}
+.container .footer1 .icons .icons-img:hover {
+  transform: scale(1);
+}
+.container .footer1 .icons .icons-img:active {
+  transform: translateY(1px);
+}
+.container .footer2 {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.container .footer2 h2 {
+  cursor: pointer;
+}
+.container .footer2 h2:active {
+  transform: translateY(3px);
+}
+.container .footer2 h3 {
+  cursor: pointer;
+}
+.container .footer2 h3:hover {
+  transform: translateX(5px);
+  color: orangered;
+  transition: 0.5s;
+}
+
+.hr {
+  width: 100%;
+  border: 1.5px solid rgba(0, 0, 51, 0.1333333333);
+  height: 3px;
+  background: #000;
+}
+
+.hr-home {
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.copy {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.footer-item {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.footer-item p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}/*# sourceMappingURL=HomeFooter.css.map */

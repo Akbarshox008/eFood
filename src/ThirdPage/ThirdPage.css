@@ -1,0 +1,80 @@
+.container {
+  max-width: 1440px;
+  height: -moz-max-content;
+  height: max-content;
+  margin: auto;
+  padding: 0;
+}
+.container .ThirdPage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+  margin: auto;
+  padding-bottom: 200px;
+}
+.container .ThirdPage img {
+  margin-left: 80px;
+}
+.container .ThirdPage .item {
+  display: flex;
+  width: 70%;
+}
+.container .ThirdPage .item span {
+  display: flex;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px;
+  padding: 10px 0px;
+}
+.container .ThirdPage p {
+  font-size: 19px;
+  font-weight: 500;
+  width: 50%;
+  line-height: 30px;
+  padding: 0px 0px 20px 0px;
+}
+.container .ThirdPage .text-icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+  margin-left: -80px;
+}
+.container .ThirdPage .text-icon p {
+  margin-top: 25px;
+}
+.container .ThirdPage button {
+  padding: 10px 30px;
+  background: #FF7A50;
+  border: none;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 30px 30px 1px 30px;
+}
+.container .ThirdPage button:hover {
+  color: rgb(47, 47, 255);
+  background: red;
+  transition: 1.2s;
+}
+.container .ThirdPage button:active {
+  transform: translateX(3px);
+  transition: 0.4s;
+}
+
+@media (max-width: 750px) {
+  .container {
+    max-width: 650px;
+    margin: auto;
+    padding: 0;
+  }
+  .container .ThirdPage {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=ThirdPage.css.map */

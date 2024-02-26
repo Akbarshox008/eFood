@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  max-width: 1410px;
+  margin: auto;
+}
+.Container #nav-forma {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin-left: 40px;
+  display: none;
+}
+.Container #nav-forma #inp {
+  width: 75%;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Container #nav-forma #inp:-moz-placeholder-shown {
+  font-size: 17px;
+  font-weight: 600;
+}
+.Container #nav-forma #inp:placeholder-shown {
+  font-size: 17px;
+  font-weight: 600;
+}
+.Container #nav-forma button {
+  width: 10%;
+  padding: 8px 30px;
+  color: #fff;
+  border: none;
+  background: #ff2f00;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.Container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+.Container .navbar .logo {
+  cursor: pointer;
+}
+.Container .navbar .logo:active {
+  transform: translateY(3px);
+  transition: 0.3s;
+}
+.Container .navbar .list {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.Container .navbar .list a {
+  text-decoration: none;
+  color: #ff481e;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 1s ease;
+}
+.Container .navbar .list a:hover {
+  color: rgb(38, 0, 255);
+}
+.Container .navbar .list a:active {
+  transform: translateY(3px);
+  transition: 0.1s;
+}
+.Container .navbar .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0px 50px 0px 0px;
+}
+.Container .navbar .icons img {
+  cursor: pointer;
+}
+.Container .navbar .icons img:active {
+  transform: translateY(3px);
+}
+.Container .navbar .icons button {
+  padding: 12px 40px;
+  border: none;
+  background: #ff2f00;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Container .navbar .icons button:hover {
+  color: rgb(0, 51, 255);
+  background: red;
+  transition: 1.4s;
+}
+.Container .navbar .icons button:active {
+  transform: translateY(5px);
+}
+
+@media (max-width: 1300px) {
+  .Container {
+    width: 1210px !important;
+  }
+  #nav-forma button {
+    width: -moz-max-content !important;
+    width: max-content !important;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

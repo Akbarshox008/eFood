@@ -1,0 +1,63 @@
+{
+  "images":[
+    {
+      "id": 1,
+      "name": "logo",
+      "image1": "./icons/eFood.png"
+    },
+    {
+      "id": 2,
+      "name": "location",
+      "image2": "./icons/Location.png"
+    },
+    {
+      "id": 3,
+      "name": "calling",
+      "image3": "./icons/Calling.png"
+    },
+    {
+      "id": 4,
+      "name": "Facebook",
+      "image4": "./icons/facebook.png"
+    },
+    {
+      "id": 5,
+      "name": "Twitter",
+      "image5": "./icons/twitter.png"
+    },
+    {
+      "id": 6,
+      "name": "Instagram",
+      "image6": "./icons/instagram.png"
+    },   {
+      "id": 7,
+      "name": "slider imgae",
+      "image7": "./icons/burger1.png"
+    },
+    {
+      "id": 8,
+      "name": "slider imgae",
+      "image8": "./icons/dish1.png"
+    },
+    {
+      "id": 9,
+      "name": "slider imgae",
+      "image9": "./icons/sandwich1.png"
+    },
+    {
+      "id":11,
+      "name": "slider img",
+      "image11": "./icons/burger2.png"
+    },
+    {
+      "id": 12,
+      "name": "slider img",
+      "image12": "./icons/burger3.png"
+    },
+    {
+      "id": 13,
+      "name": "slider img",
+      "image13": "./icons/burger4.png"
+    }
+  ]
+}

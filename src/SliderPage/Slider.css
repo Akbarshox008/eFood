@@ -1,0 +1,72 @@
+#app {
+  height: 100%;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  display: flex;
+}
+
+.swiper {
+  width: 30%;
+  height: 300px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  color: #da0000;
+  display: flex;
+  padding: 10px 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  width: 161px;
+}
+
+.slider-iconpage {
+  display: flex;
+  padding: 100px 0px;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.slider-iconpage .icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 9px 30px 9px 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #8b8b8b;
+  border-radius: 10px;
+}
+.slider-iconpage .icon-item:nth-child(1) {
+  color: #fff;
+  padding: 10px 30px 10px 10px;
+  -webkit-backdrop-filter: invert(10%);
+          backdrop-filter: invert(10%);
+}
+.slider-iconpage .icon-item:nth-child(1) img {
+  mix-blend-mode: lighten;
+}/*# sourceMappingURL=Slider.css.map */

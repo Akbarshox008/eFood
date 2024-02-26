@@ -1,0 +1,73 @@
+.container {
+  max-width: 1440px;
+  padding: 0;
+}
+.container .SecondPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.container .SecondPage .secondpage-text h1 {
+  font-size: 40px;
+  color: #FF5B00;
+  padding: 50px 0px;
+}
+.container .SecondPage .secondpage-icon {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.container .SecondPage .secondpage-icon .icon-item {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.container .SecondPage .secondpage-icon .hover {
+  transform: scale(0);
+  position: absolute;
+  top: 8.7%;
+  left: 11.5%;
+  padding: 10px;
+}
+.container .SecondPage .secondpage-icon .hover h1 {
+  font-size: 33px;
+  font-weight: 600;
+  color: red;
+  padding: 5px 0px;
+}
+.container .SecondPage .secondpage-icon .hover p {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 600;
+  gap: 4px;
+  color: #FF5B00;
+  margin-bottom: 10px;
+}
+.container .SecondPage .secondpage-icon .hover button {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 5px 20px;
+  background: #FF5B00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.container .SecondPage .secondpage-icon .hover button:hover {
+  color: rgba(53, 53, 251, 0.873);
+  background: red;
+}
+.container .SecondPage .secondpage-icon .hover button:active {
+  transform: translateY(3px);
+  transition: 0.3s;
+}
+.container .SecondPage .secondpage-icon .icon-item:hover .hover {
+  transform: scale(1);
+  -webkit-backdrop-filter: sepia(65%);
+          backdrop-filter: sepia(65%);
+  padding: 108px 60px 111px 68px;
+}/*# sourceMappingURL=SecondPage.css.map */
