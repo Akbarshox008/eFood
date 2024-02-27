@@ -17,6 +17,9 @@
 .container .ThirdPage img {
   margin-left: 80px;
 }
+.container .ThirdPage .salom {
+  animation: animated 3s infinite;
+}
 .container .ThirdPage .item {
   display: flex;
   width: 70%;
@@ -66,6 +69,17 @@
   transition: 0.4s;
 }
 
+@keyframes animated {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media (max-width: 1250px) {
   .ThirdPage {
     display: flex;

@@ -9,7 +9,7 @@ const ThirdPage = () => {
     <div className='container'>
       <div className="ThirdPage">
         <article className='thirdpage-img'>
-        <img src={page3img2} alt="" />  
+        <img className='salom' src={page3img2} alt="" />  
         </article>
         <article className="thirdpage-text">
           <article className='item'>
