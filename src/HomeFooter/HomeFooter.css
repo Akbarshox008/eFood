@@ -22,10 +22,11 @@
   height: max-content;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .container .footer1 #img {
   cursor: pointer;
+  margin-bottom: 20px;
 }
 .container .footer1 #img:active {
   transform: translateY(3px);
@@ -35,6 +36,7 @@
   gap: 15px;
   cursor: pointer;
   width: 20%;
+  margin-bottom: 20px;
 }
 .container .footer1 .location:active {
   transform: translateY(3px);
@@ -44,6 +46,7 @@
   gap: 15px;
   cursor: pointer;
   width: 70%;
+  margin-bottom: 20px;
 }
 .container .footer1 .connect:active {
   transform: translateY(3px);

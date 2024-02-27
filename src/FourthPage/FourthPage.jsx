@@ -23,7 +23,7 @@ const FourthPage = () => {
             <article className="button1">
             <img src={googleplayimg} alt="" />
               <article className="text-btn">              
-                <p id='p'>Download Gogle Play</p>
+                <p id='p'><a href="https://play.google.com/store/apps?hl=ru&gl=US" target='blank'>Download Gogle Play </a></p>
               </article>
               </article>
           </div>

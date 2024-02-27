@@ -15,7 +15,7 @@ const HomeApp = () => {
       <ThirdPage/>
       <SecondPage/>
       <FourthPage/>
-      {/* <HomeFooter/> */}
+      <HomeFooter/>
     </div>
   )
 }
