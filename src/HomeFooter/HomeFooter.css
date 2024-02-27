@@ -5,7 +5,7 @@
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
   height: -moz-max-content;
   height: max-content;
   margin: auto;
@@ -61,6 +61,7 @@
 }
 .container .footer1 .icons .icons-img:hover {
   transform: scale(1);
+  transition: 0.9s;
 }
 .container .footer1 .icons .icons-img:active {
   transform: translateY(1px);

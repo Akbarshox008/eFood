@@ -9,7 +9,6 @@
 @import url(./Service/Services.css);
 @import url(./TopCities/TopCities.css);
 @import url(./Korzinka/Korzinka.css);
-@import url(./Shopping/Shopping.css);
 
 
 * {
@@ -17,8 +16,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+    body{
+        background: rgb(223, 106, 23);
+    }
 .container{
-    width: 1410px;
+    max-width: 1450px;
+    margin: auto;
+    padding: 0;
 }
 html {
     font-size: 82.5%;
@@ -39,6 +43,8 @@ html::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: #ed6104;
 }
+
+/* 
 @media(max-width:1300px) {
     .container{
         max-width: 1200px;
@@ -114,4 +120,4 @@ html::-webkit-scrollbar-thumb {
     .hr{
         width: 360% !important;
     }
-} 
+}  */

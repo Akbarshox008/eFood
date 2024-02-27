@@ -76,7 +76,7 @@ export default function Slider() {
           <h1>Sea Food</h1>
         </article>
       </div>
-      <div className="home">
+      <div className="homes">
       <Swiper
         direction={"vertical"}
         pagination={{

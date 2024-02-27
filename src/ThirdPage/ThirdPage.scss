@@ -1,5 +1,5 @@
 .container{
-    max-width: 1440px;
+    max-width: 1450px;
     height: max-content;
     margin: auto;
     padding: 0;
@@ -64,15 +64,51 @@
         }
     }
 }
-@media(max-width:750px){
-    .container{
-        max-width: 650px;
-        margin: auto;
-        padding: 0;
+
+@media(max-width:1250px){
+
         .ThirdPage{
             display: flex ;
             justify-content: space-around ;
             gap: 20px;
+            .item{
+                width: 100%;
+            }
+            .thirdpage-text{
+                width: 70%;
+                p{
+                    font-size: 18px;
+                    width: 100%;
+                }
+                span{
+                    font-size: 25px !important;
+                    font-weight: 500;
+                }
+                .text-icon{
+                    display: none;
+                }
+            }
+            .thirdpage-img{
+                width: 50%;
+            }
+        }
+}
+
+@media(max-width:750px){
+
+    .ThirdPage{
+        display: flex ;
+        flex-direction: column;
+        justify-content: space-around ;
+        gap: 20px;
+        color: #150113;
+        .thirdpage-img{
+            width: 70%;
+        }
+        .thirdpage-text{
+            span{
+                width: 100%;
+            }
         }
     }
 }

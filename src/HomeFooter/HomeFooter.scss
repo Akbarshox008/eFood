@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 1440px;
+    max-width: 1440px;
     height: max-content;
     margin: auto;
     padding: 0;
@@ -57,6 +57,7 @@
                 transform: scale(.84);
                 &:hover{
                     transform: scale(1);
+                    transition: .9s;
                 }
                 &:active{
                     transform: translateY(1px);

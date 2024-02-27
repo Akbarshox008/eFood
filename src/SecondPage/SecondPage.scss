@@ -1,23 +1,22 @@
 .container{
-    max-width: 1440px ;
+    max-width: 1450px;
     padding: 0;
     .SecondPage{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         padding: 40px 0px;
+        margin: auto;
         .secondpage-text{
             h1{
                 font-size: 40px;
                 color: #FF5B00;
                 padding: 50px 0px;
+                text-align: center;
             }
         }
         .secondpage-icon{   
-            display: flex;
-            justify-content: space-around;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(290px, 360px) ) ;
             padding: 20px 0px;
+            justify-content: center;
             .icon-item {
                 position: relative;
                 cursor: pointer;

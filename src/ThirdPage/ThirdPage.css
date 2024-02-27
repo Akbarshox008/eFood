@@ -1,5 +1,5 @@
 .container {
-  max-width: 1440px;
+  max-width: 1450px;
   height: -moz-max-content;
   height: max-content;
   margin: auto;
@@ -66,15 +66,45 @@
   transition: 0.4s;
 }
 
-@media (max-width: 750px) {
-  .container {
-    max-width: 650px;
-    margin: auto;
-    padding: 0;
-  }
-  .container .ThirdPage {
+@media (max-width: 1250px) {
+  .ThirdPage {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+  }
+  .ThirdPage .item {
+    width: 100%;
+  }
+  .ThirdPage .thirdpage-text {
+    width: 70%;
+  }
+  .ThirdPage .thirdpage-text p {
+    font-size: 18px;
+    width: 100%;
+  }
+  .ThirdPage .thirdpage-text span {
+    font-size: 25px !important;
+    font-weight: 500;
+  }
+  .ThirdPage .thirdpage-text .text-icon {
+    display: none;
+  }
+  .ThirdPage .thirdpage-img {
+    width: 50%;
+  }
+}
+@media (max-width: 750px) {
+  .ThirdPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    color: #150113;
+  }
+  .ThirdPage .thirdpage-img {
+    width: 70%;
+  }
+  .ThirdPage .thirdpage-text span {
+    width: 100%;
   }
 }/*# sourceMappingURL=ThirdPage.css.map */

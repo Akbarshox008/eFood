@@ -5,19 +5,22 @@
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin: auto;
     padding: 0;
 
     .First-page {
         width: 100%;
-        display: flex;
-        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        left: 0;
+        right: 0;
 
         .First-page-part1 {
-            width: 50%;
-            padding: 150px 0px;
+            padding: 200px 100px;
             .First-page-part1_text {
+                margin-bottom: 30px;
                 h1 {
                     color: red;
                     font-size: 45px;
@@ -49,7 +52,6 @@
                 border-radius: 10px;
                 cursor: pointer;
                 transition: 1.2s;
-                margin-top: 60px;
                 &:hover {
                     color: rgb(0, 172, 211);
                     transition: 1s;
@@ -63,28 +65,25 @@
         }
 
         .First-page-part2{
-            width: 50%;
-            margin-left: -150px;
-            height: 100vh;
-            background-image: url(./icons/bgimg.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            height: 700px;
             background-position: center;
-            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./icons/bgimg.png);
             img{
             position: absolute;
             cursor: pointer;
             &:nth-child(1){
-                top: 250px;
-                left: 36px;
+                top: 300px;
+                right: 550px;
             }
             &:nth-child(2){
-                top: 400px;
-                left: 60px;
+                top: 590px;
+                right: 260px;
             }
             &:nth-child(3){
-                top: 530px;
-                left: 165px;
+                top: 500px;
+                right: 450px;
             }
         }
         }
@@ -92,46 +91,68 @@
 }
 
 
-@media(max-width:750px){
-    .container{
-        max-width: 650px;
-        margin: auto;
-        padding: 0;
-        .First-page{
-            display: flex;
-            flex-direction: column-reverse;
-            justify-content: center;
-            align-items: center;
-            .First-page-part1{
-                width: 90%;
-                text-align: center;
-                p{
-                    width: 40% !important;
-                    text-align: center; 
-                    margin-left: 300px;
-                }
-            }
-        }
+@media (max-width: 1405px) {
+    .First-page{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding-bottom: 20px;
         .First-page-part2{
-            width: 55% !important;
-            height: 150vh !important;
-            margin-bottom: 130px !important;
-            img{
-                position: absolute;
-                cursor: pointer;
-                &:nth-child(1){
-                    top: 500px !important;
-                    left: 199px !important;
-                }
-                &:nth-child(2){
-                    top: 599px !important;
-                    left: 360px !important;
-                }
-                &:nth-child(3){
-                    top: 550px !important;
-                    left: 560px !important;
-                }
+            display: none;
+        }
+        .First-page-part1{
+           background-image: url(./icons/bgimg.png);
+           height: 60vh;
+          .First-page-part1_text{
+            p{
+                width: 50% !important;
             }
+          }
         }
     }
 }
+
+
+// @media(max-width:750px){
+//     .container{
+//         background-color: red;
+//         max-width: 650px;
+//         margin: auto;
+//         padding: 0;
+//         .First-page{
+//             display: flex;
+//             flex-direction: column-reverse;
+//             justify-content: center;
+//             align-items: center;
+//             .First-page-part1{
+//                 width: 90%;
+//                 text-align: center;
+//                 p{
+//                     width: 40% !important;
+//                     text-align: center; 
+//                     margin-left: 300px;
+//                 }
+//             }
+//         }
+//         .First-page-part2{
+//             width: 55% !important;
+//             height: 150vh !important;
+//             margin-bottom: 130px !important;
+//             img{
+//                 position: absolute;
+//                 cursor: pointer;
+//                 &:nth-child(1){
+//                     top: 500px !important;
+//                     left: 199px !important;
+//                 }
+//                 &:nth-child(2){
+//                     top: 599px !important;
+//                     left: 360px !important;
+//                 }
+//                 &:nth-child(3){
+//                     top: 550px !important;
+//                     left: 560px !important;
+//                 }
+//             }
+//         }
+//     }
+// }
